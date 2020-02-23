@@ -16,3 +16,5 @@
 ``SELECT * FROM Professor;``{{execute}}
 
 ``\q``{{execute}}
+
+``exit``{{execute}}
