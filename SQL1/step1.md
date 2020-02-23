@@ -15,3 +15,5 @@
 ``su - postgres``{{execute}}
 
 ``psql``{{execute}}
+
+``ALTER USER postgres PASSWORD 'myPassword';``{{execute}}

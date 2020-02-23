@@ -1,3 +1,6 @@
+
+``\l``{{execute}}
+
 ``CREATE DATABASE testdatabase;``{{execute}}
 
 ``\l``{{execute}}

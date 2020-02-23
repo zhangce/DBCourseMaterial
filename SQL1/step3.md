@@ -7,10 +7,12 @@
 
 ``INSERT INTO Professor VALUES (2125, 'John', 'AP', 226);``{{execute}}
 
-``SELECT * FROM Professor``{{execute}}
+``SELECT * FROM Professor;``{{execute}}
 
 ``INSERT INTO Professor VALUES (2126, 'David', 'FP', 232);``{{execute}}
 
 ``INSERT INTO Professor VALUES (2127, 'Anna', 'FP', 310);``{{execute}}
 
 ``SELECT * FROM Professor;``{{execute}}
+
+``\q``{{execute}}
