@@ -26,12 +26,27 @@ We then install `PostgreSQL`:
 
 ##### Start DBMS
 
+Now we have `PostgreSQL` installed, we can start it 
+by using the following command.
+
 ``pg_ctlcluster 12 main start``{{execute}}
 
 ##### Connect 
 
+Now `PostgreSQL` is running as a service and we can
+connect to it using its default client `psql`. By default,
+`PostgreSQL` will create a user `postgres` and it is
+easier to connect to it as this user.
+
+We first swtich the user to `postgres`
+
 ``su - postgres``{{execute}}
 
+Runinng `psql` will connect us with the DBMS engine.
+
 ``psql``{{execute}}
+
+We can now type some commands. For example, let's change
+the password for our default user `postgres`.
 
 ``ALTER USER postgres PASSWORD 'myPassword';``{{execute}}
