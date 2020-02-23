@@ -5,12 +5,12 @@
 
 ``CREATE TABLE Lecture (LectureID integer, Title varchar(100), CP integer, ProfNr integer, PRIMARY KEY (LectureID));``{{execute}}
 
-``INSERT INTO Professor (2125, "John", "AP", 226);``{{execute}}
+``INSERT INTO Professor VALUES (2125, 'John', 'AP', 226);``{{execute}}
 
 ``SELECT * FROM Professor``{{execute}}
 
-``INSERT INTO Professor (2126, "David", "FP", 232);``{{execute}}
+``INSERT INTO Professor VALUES (2126, 'David', 'FP', 232);``{{execute}}
 
-``INSERT INTO Professor (2127, "Anna", "FP", 310);``{{execute}}
+``INSERT INTO Professor VALUES (2127, 'Anna', 'FP', 310);``{{execute}}
 
-``SELECT * FROM Professor``{{execute}}
+``SELECT * FROM Professor;``{{execute}}
