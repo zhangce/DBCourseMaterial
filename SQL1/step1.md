@@ -20,7 +20,7 @@ environment as follows:
 
 ``apt-get update``{{execute}}
 
-We then install `PostgreSQL`:
+We can now install `PostgreSQL`:
 
 ``apt-get install -y postgresql postgresql-contrib``{{execute}}
 
@@ -33,7 +33,7 @@ by using the following command.
 
 ##### Connect 
 
-Now `PostgreSQL` is running as a service and we can
+Now `PostgreSQL` is running as a service in the background and we can
 connect to it using its default client `psql`. By default,
 `PostgreSQL` will create a user `postgres` and it is
 easier to connect to it as this user.
@@ -50,3 +50,6 @@ We can now type some commands. For example, let's change
 the password for our default user `postgres`.
 
 ``ALTER USER postgres PASSWORD 'myPassword';``{{execute}}
+
+We can quit the `psql` program with
+
