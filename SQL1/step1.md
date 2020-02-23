@@ -4,7 +4,13 @@
 We first install a DBMS in Ubuntu. Here we will install PostgreSQL 
 and use it as an example.
 
-##### Dependencies
+##### Setup
+
+Like all software, to install a DBMS, we need to set-up 
+our environments and dependencies. This process is
+particularly easy for installing PostgreSQL
+in Ubuntu. We first step-up the `apt-get`
+environment as follows:
 
 `apt-get install wget ca-certificates`{{execute}}
 
@@ -14,9 +20,15 @@ and use it as an example.
 
 ``apt-get update``{{execute}}
 
+We then install `PostgreSQL`:
+
 ``apt-get install -y postgresql postgresql-contrib``{{execute}}
 
+##### Start DBMS
+
 ``pg_ctlcluster 12 main start``{{execute}}
+
+##### Connect 
 
 ``su - postgres``{{execute}}
 
