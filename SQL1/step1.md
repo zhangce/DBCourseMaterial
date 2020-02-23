@@ -8,7 +8,7 @@
 
 ``apt-get update``{{execute}}
 
-``apt-get install postgresql postgresql-contrib``{{execute}}
+``apt-get install -p y postgresql postgresql-contrib``{{execute}}
 
 ``pg_ctlcluster 12 main start``{{execute}}
 
