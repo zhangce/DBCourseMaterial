@@ -49,7 +49,7 @@ all tuples in this new relation by enumerate
 
 ``for l in cursor.fetchall(): print l``{{execute}}
 
-(Remeber to hit `Enter` in the terminal!)
+**(Remeber to hit `Enter` in the terminal!)**
 
 We see that all three tuples are now being printed out. One can
 process them in Python just like any other Python objects.
