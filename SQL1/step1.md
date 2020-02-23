@@ -11,3 +11,7 @@
 ``apt-get install postgresql postgresql-contrib``{{execute}}
 
 ``pg_ctlcluster 12 main start``{{execute}}
+
+``su - postgres``{{execute}}
+
+``psql``
