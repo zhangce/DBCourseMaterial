@@ -1,5 +1,10 @@
 
-#### Installing a DB
+#### Installing a DBMS
+
+We first install a DBMS in Ubuntu. Here we will install PostgreSQL 
+and use it as an example.
+
+##### Dependencies
 
 `apt-get install wget ca-certificates`{{execute}}
 
