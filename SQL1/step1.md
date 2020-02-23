@@ -14,4 +14,4 @@
 
 ``su - postgres``{{execute}}
 
-``psql``
+``psql``{{execute}}
