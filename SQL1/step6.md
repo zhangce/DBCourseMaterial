@@ -14,3 +14,4 @@
 
 ``SELECT * FROM Professor p, Lecture l WHERE p.PersNr = l.ProfNr AND l.title = 'Databases';``{{execute}}
 
+``\q``{{execute}}

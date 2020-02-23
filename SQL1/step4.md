@@ -15,6 +15,4 @@
 
 ``for l in cursor.fetchall(): print l``{{execute}}
 
-`` ``{{execute}}
-
 ``exit()``{{execute}}

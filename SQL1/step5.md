@@ -8,4 +8,4 @@
 
 ``ls``{{execute}}
 
-``professor.csv``{{execute}}
+``cat professor.csv``{{execute}}
