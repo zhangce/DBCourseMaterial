@@ -29,7 +29,7 @@ We can now install `PostgreSQL`:
 Now we have `PostgreSQL` installed, we can start it 
 by using the following command.
 
-``pg_ctlcluster 12 main start``{{execute}}
+``pg_ctlcluster 13 main start``{{execute}}
 
 ##### Connect 
 
