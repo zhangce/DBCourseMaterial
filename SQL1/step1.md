@@ -14,10 +14,6 @@ environment as follows:
 
 `apt-get install wget ca-certificates`{{execute}}
 
-`wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | apt-key add -`{{execute}}
-
-``sh -c 'echo "deb http://apt.postgresql.org/pub/repos/apt/ `lsb_release -cs`-pgdg main" >> /etc/apt/sources.list.d/pgdg.list'``{{execute}}
-
 ``apt-get update``{{execute}}
 
 We can now install `PostgreSQL`:
@@ -29,7 +25,7 @@ We can now install `PostgreSQL`:
 Now we have `PostgreSQL` installed, we can start it 
 by using the following command.
 
-``pg_ctlcluster 13 main start``{{execute}}
+``pg_ctlcluster 9.5 main start``{{execute}}
 
 ##### Connect 
 
